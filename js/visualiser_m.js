@@ -10,7 +10,7 @@ const qsa = (val) => {
 
 //redirects pc user to /v
 if (!navigator.userAgentData.mobile) {
-      location.href = "v"
+      location.href = "v.html"
 }
 
 const div = qs("#visualiserMain");

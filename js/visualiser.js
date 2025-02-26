@@ -11,7 +11,7 @@ const qsa = (val) => {
 //block access to mobile to android and mac os
 if (navigator.userAgent.includes("Android")|| 
 (navigator.userAgent.includes("Mac OS X")) && !navigator.userAgent.includes("Macintosh")){
-      location.href = "v_m"
+      location.href = "v_m.html"
 }
 
 const div = document.getElementById("visualiserMain");
